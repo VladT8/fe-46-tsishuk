@@ -1,0 +1,39 @@
+html {
+	font-family: Raleway;
+}
+body {
+	background: #ffffff;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.section-title {
+	min-height: 150px;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+.section-hr {
+	width: 170px;
+	/* height: 1px; */
+	margin: -2px auto;
+	/* background-color: #EC7979; */
+	border: 1px solid #EC7979;
+	/* display: flex;
+	justify-content: center; */
+}
+.section-subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	justify-content: center;
+	color: #86878B;
+	margin-top: 41px;
+}

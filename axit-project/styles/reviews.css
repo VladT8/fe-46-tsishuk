@@ -1,0 +1,77 @@
+.reviews {
+	padding: 50px 0px 64px;
+}
+.reviews__wrapper {
+	margin-top: 83px;
+	display: flex;
+	justify-content: space-between;
+}
+.reviews__customer {
+	max-width: 370px;
+}
+.customer__talk {
+	max-width: 370px;
+	min-height: 180px;
+	background: #E2E2E2;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.customer__talk p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #86878B;
+	text-align: center;
+	margin: auto 0px;
+}
+/* Хотел треугольник добавить так, но он привязывается к p , а не к div почему-то
+.customer__talk::after {
+	content: "";
+	background: url(./icons/triangle.svg);
+} */
+.customer__triangle {
+	position: absolute;
+	left: 70px;
+	bottom: -20px;
+}
+.customer__talk p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #86878B;
+}
+.customer__info {
+	margin-top: 66px;
+	display: flex;
+	justify-content: flex-start;
+}
+.customer__avatar {
+	margin-right: 30px;
+}
+.customer__name {
+	height: 54px;
+	display: flex;
+	align-items: center;
+}
+.customer__name p {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	
+	text-transform: capitalize;
+	color: #000000;
+}
+.customer__position {
+	margin-top: 15px;
+}
+.customer__position p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+}

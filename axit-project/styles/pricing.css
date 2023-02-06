@@ -1,0 +1,66 @@
+.pricing {
+	background: #F5F5F5;
+	padding: 50px 0 50px;
+}
+.pricing-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 79px;
+}
+.pricing-item__list {
+	max-width: 370px;
+}
+.pricing-item:hover {
+	filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+	transform: translateY(-20px);
+	transition: all 0.7s linear 0s
+}
+.pricing-item__list li {
+	width: 370px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border: 2px solid #F5F5F5;
+}
+.pricing-item__list li:first-child {
+	height: 60px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	text-transform: capitalize;
+}
+.pricing-item__list li:nth-child(2) {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	height: 100px;
+}
+.pricing-item__list li:nth-child(3) {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+}
+.pricing-item__list li:nth-child(-n+3) {
+	background: #333333;
+}
+.pricing-item__list li:nth-child(-n+2) {
+	color: #FFFFFF;
+}
+.pricing-item__list li:nth-child(3) {
+	color: rgba(255, 255, 255, 0.5);
+}
+.pricing-item__list li:nth-child(n+4) {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: capitalize;
+	color: #86878B;
+	background: #FFFFFF;
+	border: 2px solid #F5F5F5;
+}

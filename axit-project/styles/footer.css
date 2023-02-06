@@ -1,0 +1,22 @@
+.footer {
+	min-height: 164px;
+	background: #000000;
+	padding: 35px 0px 27px;
+}
+.footer__socials {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+}
+.footer__info {
+	margin-top: 32.23px;
+}
+.footer__info p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.5);
+}
