@@ -11,20 +11,6 @@
 	justify-content: space-between;
 	align-items: center;
 }
-.header__logo {
-	width: 183.1px;
-	display: flex;
-	justify-content: start;
-	align-items: center;
-}
-.header__logo img:first-child{
-	width: 51.8px;
-	height: 30.7px;
-}
-.header__logo img:last-child{
-	width: 32.2px;
-	height: 30.7px;
-}
 .header__nav {
 	display: flex;
 	align-items: center;
