@@ -18,20 +18,12 @@
 	align-items: center;
 	position: relative;
 }
-.customer__talk p {
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 21px;
-	color: #86878B;
-	text-align: center;
-	margin: auto 0px;
-}
-/* Хотел треугольник добавить так, но он привязывается к p , а не к div почему-то
 .customer__talk::after {
 	content: "";
-	background: url(./icons/triangle.svg);
-} */
-.customer__triangle {
+	display: block;
+	width: 30px;
+	height: 20px;
+	background: url(../icons/triangle.svg);
 	position: absolute;
 	left: 70px;
 	bottom: -20px;
@@ -40,8 +32,8 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
-	text-align: center;
 	color: #86878B;
+	text-align: center;
 }
 .customer__info {
 	margin-top: 66px;
@@ -60,7 +52,6 @@
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 33px;
-	
 	text-transform: capitalize;
 	color: #000000;
 }
