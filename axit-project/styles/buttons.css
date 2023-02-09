@@ -1,0 +1,81 @@
+.button-type-one {
+	width: 270px;
+	height: 60px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	margin-top: 42px;
+	background: transparent;
+}
+.button-type-one:hover {
+	border: 2px solid #EC7979;
+	color: #EC7979;
+}
+.button-type-one:active {
+	background: #AB4949;
+	border: 2px solid #AB4949;
+	color: #FFFFFF;
+}
+.banner__form button {
+	position: absolute;
+	margin: 0px -50px;
+	width: 100%;
+	bottom: 0px;
+}
+.button-type-two {
+	height: 60px;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	background: #EC7979;
+	border-radius: 0px 0px 10px 10px;
+}
+.button-type-two:hover {
+	background: #AB4949;
+	border-radius: 0px 0px 10px 10px;
+}
+.button-type-two:active {
+	background: #EC7979;
+	border-radius: 0px 0px 10px 10px;
+}
+.button-type-tree {
+	width: 270px;
+	height: 58px;
+	background: #EC7979;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
+.button-type-tree:hover {
+	background: #AB4949;
+}
+.button-type-tree:active {
+	background: #EC7979;
+	box-shadow: inset 0px 0px 10px #AB4949;
+}
+.button-type-one_center {
+	margin: 73px auto 0px;
+	width: 370px;
+}
+.button-type-tree_contact {
+	margin: 50px auto 0px;
+	width: 370px;
+	align-self: flex-end;
+}

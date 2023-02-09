@@ -1,0 +1,29 @@
+.header {
+	height: 75px;
+	background: #000000;
+}
+.header__container {
+	max-width: 1224px;
+	margin: 0 auto;
+}
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__nav {
+	display: flex;
+	align-items: center;
+}
+.header__nav a {
+	height: 75px;
+	width: 113.8px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+}
