@@ -10,7 +10,6 @@
 	flex-direction: column;
 	justify-content: start;
 }
-
 .banner__title {
 	max-width: 670px;
 	font-weight: 500;
@@ -40,7 +39,10 @@
 	display: flex;
 	align-items: center;
 	color: #FFFFFF;
-	margin-top: 42px;
+	margin-top: 41px;
+}
+.banner__main button {
+	margin-top: 41px;
 }
 .form {
 	background: #FFFFFF;
@@ -49,20 +51,22 @@
 .banner__form {
 	width: 470px;
 	height: 450px;
-	padding: 0px 50px;
+	padding: 28px 50px 0px;
 	position: relative;
 }
 .form__header {
 	display: block;
 	width: 100%;
-	height: 90px;
+	height: 64px;
 	font-family: 'Open Sans';
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 33px;
-	display: flex;
+	/* margin-top: 30px; */
+	/* display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; */
+	text-align: center;
 	text-transform: uppercase;
 	color: #333333;
 }
@@ -79,7 +83,7 @@
 	margin-top: 45px;
 }
 .banner__form input:nth-child(n+3) {
-	margin-top: 33px;
+	margin-top: 35px;
 }
 .banner__form button {
 	position: absolute;

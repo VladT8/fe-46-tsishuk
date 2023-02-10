@@ -11,7 +11,7 @@
 	text-transform: capitalize;
 	color: #FFFFFF;
 	border: 2px solid #FFFFFF;
-	margin-top: 42px;
+	/* margin-top: 42px; */
 	background: transparent;
 }
 .button-type-one:hover {
@@ -22,12 +22,6 @@
 	background: #AB4949;
 	border: 2px solid #AB4949;
 	color: #FFFFFF;
-}
-.banner__form button {
-	position: absolute;
-	margin: 0px -50px;
-	width: 100%;
-	bottom: 0px;
 }
 .button-type-two {
 	height: 60px;
