@@ -369,12 +369,16 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
          </div>
          <div class="contact__wrapper">
-            <form class="contact__form form" action="#">
+            <form class="contact__form" action="#">
                <div class="contact__inputs">
-                  <input type="text" placeholder="Name" required>
-                  <input type="email" placeholder="Email" required>
-                  <input type="password" placeholder="Password" required>
-                  <input type="text" placeholder="Message">
+                  <div class="contact__inputs-left">
+                     <input type="text" placeholder="Name" required>
+                     <input type="email" placeholder="Email" required>
+                     <input type="password" placeholder="Password" required>
+                  </div>
+                  <div class="contact__inputs-right">
+                     <textarea name="Message" placeholder="Message"></textarea>
+                  </div>
                </div>
                <button class="button-type-tree button-type-tree_contact" type="submit">Send Message</button>
             </form>
