@@ -1,5 +1,4 @@
 .stylish {
-	
 	background: url(../img/bg/stylish1.png) center center/cover no-repeat;;
 }
 .stylish__shadow {
@@ -8,6 +7,9 @@
 }
 .section-title_white, .section-subtitle_white {
 	color: #FFFFFF;
+}
+.section-hr_white {
+	border: 1px solid #FFFFFF;
 }
 .button-type-one_center {
 	margin: 73px auto 0px;
