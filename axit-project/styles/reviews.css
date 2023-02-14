@@ -67,3 +67,8 @@
 	align-items: center;
 	color: #000000;
 }
+@media (max-width: 768px){
+	.reviews {
+		display: none;
+	}
+}
