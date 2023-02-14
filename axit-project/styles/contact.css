@@ -58,4 +58,7 @@
 	.contact__inputs > div {
 		width: 80%;
 	}
+	.button-type-tree_contact {
+		width: 288px;
+	}
 }

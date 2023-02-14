@@ -27,3 +27,8 @@
 	margin: 73px auto 0px;
 	width: 370px;
 }
+@media (max-width: 768px) {
+	.stylish button {
+		width: 287px;
+	}
+}
