@@ -33,3 +33,14 @@
 	justify-content: center;
 	align-items: center;
 }
+@media (max-width: 1318px) {
+	.header__container {
+		padding: 0px 20px;
+	}
+}
+@media (max-width: 1170px) {
+	.header__container {
+		max-width: none;
+		padding: 0px 20px;
+	}
+}
