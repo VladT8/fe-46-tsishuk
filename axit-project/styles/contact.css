@@ -14,7 +14,7 @@
 	flex-wrap: wrap;
 }
 .contact__inputs > div {
-	width: 570px;
+	width: calc(570/1170*100%);
 }
 .contact__inputs input {
 	font-family: 'Open Sans';
