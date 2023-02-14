@@ -130,6 +130,9 @@
 	.banner__main > button {
 		margin: 42px auto 56px;
 	}
+	.banner__form {
+		width: 288px;
+	}
 }
 /* @media (max-width: 576px) {
 	.container {

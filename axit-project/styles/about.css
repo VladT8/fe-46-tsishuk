@@ -46,3 +46,15 @@
 		padding: 0px 16px;
 	}
 }
+@media (max-width: 768px) {
+	.section-title h2 {
+		text-align: center;
+	}
+	.section-subtitle {
+		text-align: center;
+	}
+	.about-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+}
