@@ -71,7 +71,7 @@
 		align-items: center;
 	}
 	.pricing-item {
-		width: 90%;
+		width: 80%;
 	}
 	.pricing-item:hover {
 		filter: none;
