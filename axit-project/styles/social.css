@@ -37,7 +37,7 @@
 	color: #86878B;
 }
 .social__icons {
-	width: 670px;
+	width: calc(670/1170*100%);
 	margin-top: 15px;
 	display: flex;
 	justify-content: space-between;
@@ -49,4 +49,41 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+@media (max-width: 768px) {
+	.social {
+		padding-bottom: 44px;
+	}
+	.social__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.social__title {
+		display: flex;
+		justify-content: center;
+	}
+	.social__title h4 {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.social__descr {
+		text-align: center;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+		margin: 13px 0px 34px;
+	}
+	.social__icons {
+		flex-wrap: wrap;
+	}
+	.social__icons a {
+		width: 26px;
+		height: 26px;
+	}
+	.social__icons a img {
+		width: 100%;
+		height: 100%;
+	}
 }
