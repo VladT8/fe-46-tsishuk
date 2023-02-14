@@ -8,7 +8,7 @@
 	margin-top: 79px;
 }
 .pricing-item {
-	width: calc(370/1110*100%);
+	width: calc(370/1170*100%);
 }
 
 .pricing-item:hover {

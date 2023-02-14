@@ -7,7 +7,7 @@
 	justify-content: space-between;
 }
 .reviews__customer {
-	max-width: 370px;
+	width: calc(370/1170*100%);
 }
 .customer__talk {
 	max-width: 370px;

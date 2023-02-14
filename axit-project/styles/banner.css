@@ -31,13 +31,13 @@
 	align-items: center;
 	text-transform: uppercase;
 	color: #FFFFFF;
-	margin-top: 50.88px;
+	margin-top: 53px;
 }
 .banner__hr {
 	width: 170px;
 	height: 0px;
 	border: 1px solid #FFFFFF;
-	margin-top: 55.12px;
+	margin-top: 51px;
 }
 .banner__wrapper {
 	display: flex;
@@ -53,7 +53,7 @@
 	display: flex;
 	align-items: center;
 	color: #FFFFFF;
-	margin-top: 41px;
+	margin-top: 43px;
 }
 .banner__main button {
 	margin-top: 41px;
