@@ -46,23 +46,6 @@
 .tab:target {
 	display: flex;
 }
-/* .tabs__item {
-	width: 184px;
-	height: 40px;
-	font-family: 'Open Sans';
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 19px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-transform: uppercase;
-	color: #333333;
-	cursor: pointer;
-	width: 203px;
-} */
-
-
 .tabs__info {
 	width: 100%;
 	padding-left: 100px;
@@ -93,4 +76,20 @@
 .tabs__photo {
 	max-width: 470px;
 	height: 100%;
+}
+@media (max-width: 992px) {
+	.tabs__photo {
+		display: none;
+	}
+	.tabs__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.tabs__info {
+		padding: 0px 0px 30px 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }

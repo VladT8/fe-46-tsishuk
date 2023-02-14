@@ -37,11 +37,11 @@ body {
 	color: #86878B;
 	margin-top: 41px;
 }
-/* @media (max-width: 1325px) {
+@media (max-width: 1024px) {
 	header__container {
 		padding: 0 10px;
 	}
-} */
+}
 @media (max-width: 1225px) {
 	.container {
 		padding: 0px 10px;

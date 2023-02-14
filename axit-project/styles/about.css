@@ -41,3 +41,8 @@
 	text-align: center;
 	color: #000000;
 }
+@media (max-width: 1024px) {
+	.about-item__info {
+		padding: 0px 10px;
+	}
+}
